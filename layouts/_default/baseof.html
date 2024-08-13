@@ -9,9 +9,13 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
-                    <h1>{{ .Site.Title}} </h1>
+                    <link rel="stylesheet" href="{{ "../../../css/custom.css" | relURL }}">
+                    <h1 >{{ .Site.Title}} </h1>
                     <!--<hr class="small">-->
-		    <span class="subheading">{{ .Site.Params.slogan }}</span>
+                    
+		    <span class="subheading" style="font-size: 24px;font-family: fusion-pixel, sans-serif; ">{{ .Site.Params.slogan }}</span>
+            <span class="subheading" style="font-size: 24px;font-family: fusion-pixel, sans-serif; ">OR</span>
+            <span class="subheading" style="font-size: 24px;font-family: fusion-pixel, sans-serif; ">「What Kind of Person Do You Want to Be?」</span>
                 </div>
             </div>
         </div>
